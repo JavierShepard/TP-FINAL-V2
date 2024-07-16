@@ -1,5 +1,5 @@
 
-const db = require('../../config/db');
+const db = require('../../config/db.js');
 require('dotenv/config');
 
 
