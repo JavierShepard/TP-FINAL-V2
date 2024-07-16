@@ -1,4 +1,6 @@
-const db = require('../config/db');
+import express from 'express';
+import db from './config/db.js';
+import 'dotenv/config';
 
 exports.createUser = (req, res) => {
   const { nombreUsuario, mail, contraseña } = req.body;
